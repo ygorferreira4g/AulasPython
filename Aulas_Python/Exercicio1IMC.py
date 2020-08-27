@@ -7,4 +7,4 @@ def calkIMC():
 
     print("Ola", nome, "o seu IMC e ", imc)
 
-calkIMC()
+calkIMC() 
