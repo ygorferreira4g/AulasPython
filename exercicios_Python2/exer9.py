@@ -1,4 +1,6 @@
 Nome ="Kiko loureiro" 
+type(Nome) 
+print(type(Nome))
 # string: Strings podem ser definidos como coleções de sequencias de caracteres. Isto significa que assumimos que os 
 # caracteres individuais que compõem a cadeia estão em uma determinada ordem, da esquerda para a direita
 
@@ -21,4 +23,4 @@ Idade_filhos = [3, 3, 8 ]
 Anos_filhos_nasceram = (2016, 2016, 2011)
 # Tuple: Tupla é uma Lista imutável. ... Uma Tupla é definida da mesma forma que uma lista, o que as diferencias, 
 # são os caracteres que as delimitam. Uma Lista, tem seus elementos delimitados por colchetes, enquanto que a Tupla, 
-# tem seus elementos delimitados por parêntesis.
+# tem seus elementos delimitados por parêntesis.    
