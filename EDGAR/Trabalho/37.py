@@ -3,7 +3,7 @@ a = float(input("Digite a quantidade de maçã que deseja comprar"))
 if a < 12 :
     b = a * 1.3
     print("Pagará R$ {} pelas maçãs compradas".format(round(b,2))) 
-else :
+elif a >= 12 :
     b = a * 1
 
     print("você escolheu {} Maçãs para comprar")
