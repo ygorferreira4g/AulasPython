@@ -13,7 +13,7 @@ def maisAlto():
     
                       #       EQUAÇÃO PRA SABER O MAIS ALTO 1
 
-    if a1 == a1 or a1  > a2 and a1 > a3 and a1 > a4 :
+    if a1 == a1 and a1  > a2 and a1 > a3 and a1 > a4 :
         print("CLIENTE MAIS ALTO: \n  CÓDIGO :" , c1 ,"ALTURA :" , a1 , "PESO :" , p1) 
         print("\n")       
         print("ALTURA MÉDIA: " , ( a1+a2+a3+a4 ) / i )
@@ -23,7 +23,7 @@ def maisAlto():
 
                     #       EQUAÇÃO PRA SABER O MAIS ALTO 2
 
-    elif a2 == a2 or  a2 > a1 and a2 > a3 and a2 > a4 :
+    elif a2 == a2 and  a2 > a1 and a2 > a3 and a2 > a4 :
         print(" CLIENTE MAIS ALTO: \n  CÓDIGO :" , c2 , "ALTURA :" , a2, "PESO :" , p2)  
         print("\n") 
         print("ALTURA MÉDIA 3: " , (a1+a2+a3+a4 ) / i )
@@ -32,7 +32,7 @@ def maisAlto():
 
                               #       EQUAÇÃO PRA SABER O MAIS ALTO 3
 
-    elif a3 == a3 or a3 > a1 and a3 > a2 and a3 > a4 :
+    elif a3 == a3 and a3 > a1 and a3 > a2 and a3 > a4 :
        print(" CLIENTE MAIS ALTO: \n  CÓDIGO :" , c3 , "ALTURA :" , a3, "PESO :" , p3)  
        print("\n") 
        print("ALTURA MÉDIA: " , (a1+a2+a3+a4 ) / i )
@@ -43,7 +43,7 @@ def maisAlto():
 
                         #       EQUAÇÃO PRA SABER O MAIS ALTO  4
 
-    elif a4 == a4 or a4  > a1 and a4 > a2 and a4 > a3 :
+    elif a4 == a4 and a4  > a1 and a4 > a2 and a4 > a3 :
        print(" CLIENTE MAIS ALTO : \n   CÓDIGO :" , c4 , "ALTURA :" , a4, "PESO :" , p4)  
        print("\n") 
        print("ALTURA MÉDIA: " , (a1+a2+a3+a4 ) / i )
@@ -59,7 +59,7 @@ def maisBaixo() :
 
                      #       EQUAÇÃO PRA SABER O MAIS BAIXO 1
 
-    if a1 == a1 or a1 < a2 and a1 < a3 and a1 < a4 :
+    if a1 == a1 and a1 < a2 and a1 < a3 and a1 < a4 :
         print(" CLIENTE MAIS BAIXO : \n CÓDIGO :" , c1,"ALTURA :" , a1, "PESO :" , p1)    
         print("\n")    
       
@@ -67,21 +67,21 @@ def maisBaixo() :
 
                      #       EQUAÇÃO PRA SABER O MAIS BAIXO 2
 
-    if a2 == a2 or a2 < a1 and a2 < a3 and a2 < a4 :
+    if a2 == a2 and a2 < a1 and a2 < a3 and a2 < a4 :
         print(" CLIENTE MAIS BAIXO : \n CÓDIGO :" , c2,"ALTURA :" , a2, "PESO :" , c2) 
         print("\n") 
       
 
                     #       EQUAÇÃO PRA SABER O MAIS BAIXO 3
 
-    if a3 == a3 or a3  < a1 and a3 < a2 and a3 < a4 :
+    if a3 == a3 and a3  < a1 and a3 < a2 and a3 < a4 :
          print( " CLIENTE MAIS BAIXO :\n CÓDIGO :" , c3 ,  "ALTURA :" , a3, "PESO :" , p3)
          print("\n") 
        
 
                     #       EQUAÇÃO PRA SABER O MAIS BAIXO  4
 
-    if a4 == a4 or a4 < a1 and a4 < a2 and a4 < a3 :
+    if a4 == a4 and a4 < a1 and a4 < a2 and a4 < a3 :
         print(" CLIENTE MAIS BAIXO : \n CÓDIGO :" , c4 , "ALTURA :" , a4, "PESO :" , p4)  
         print("\n") 
        
@@ -93,20 +93,28 @@ def maisBaixo() :
 
 def Gordo():
 
-    if p1 == p1  or p1  > p2  and p1 > p3 and p1 > p4 :
+    if p1 == p1  and p1  > p2  and p1 > p3 and p1 > p4 :
         print("Cliente Mais Gordo:\n" ,"PESO :" , p1 ,"CÓDIGO :" , c1, "ALTURA :" , a1) 
         print("\n") 
+        print("Média de peso:",(p1 +p2 + p3 + p4 ) / i)
+        print("\n")
 
-    if p2 == p2 or p2 > p1 and p2 > p3 and p2 > p4 :
+    if p2 == p2 and p2 > p1 and p2 > p3 and p2 > p4 :
         print("Cliente Mais Gordo:\n" ,"PESO :" , p2 ,"CÓDIGO :" , c2, "ALTURA :" , a2) 
         print("\n") 
+        print("Média de peso:",(p1 +p2 + p3 + p4 ) / i)
+        print("\n")
 
-    if p3 == p3 or p3 > p1 and p3 > p2 and p3 > p4 :
+    if p3 == p3 and p3 > p1 and p3 > p2 and p3 > p4 :
         print("Cliente Mais Gordo:\n" ,"PESO :" , p3 ,"CÓDIGO :" , c3, "ALTURA :" , a3)   
+        print("\n") 
+        print("Média de peso:",(p1 +p2 + p3 + p4 ) / i)
         print("\n")  
 
-    if p4 == p4 or p4 > p1 and p4 > p2 and p4 > p3 :
+    if p4 == p4 and p4 > p1 and p4 > p2 and p4 > p3 :
         print("Cliente Mais Gordo:\n" ,"PESO :" , p4 ,"CÓDIGO :" , c4, "ALTURA :" , a4)   
+        print("\n") 
+        print("Média de peso:",(p1 +p2 + p3 + p4 ) / i)
         print("\n")   
 
 
@@ -114,19 +122,19 @@ def Magro() :
       
                                 # DEFINIÇÃO PARA SABER MAIS GORDO 
 
-    if p1 < p2  and p1 < p3 and p1 < p4 :
+    if p1 == p1 and p1 < p2  and p1 < p3 and p1 < p4 :
         print("Cliente Mais Magro:\n" ,"PESO :" , p1 ,"CÓDIGO :" , c1, "ALTURA :" , a1) 
         print("\n") 
 
-    if p2 < p1 and p2 < p3 and p2 < p4 :
+    if p2 == p2 and p2  < p1 and p2 < p3 and p2 < p4 :
         print("Cliente Mais Magro:\n" ,"PESO :" , p2 ,"CÓDIGO :" , c2, "ALTURA :" , a2) 
         print("\n") 
 
-    if p3 < p1 and p3 < p2 and p3 < p4 :
+    if p3 == p3 and p3  < p1 and p3 < p2 and p3 < p4 :
         print("Cliente Mais Magro:\n" ,"PESO :" , p3 ,"CÓDIGO :" , c3, "ALTURA :" , a3)   
         print("\n")  
 
-    if p4 < p1 and p4 < p2 and p4 < p3 :
+    if p4 == p4 and p4 < p1 and p4 < p2 and p4 < p3 :
         print("Cliente Mais Magro:\n" ,"PESO :" , p4 ,"CÓDIGO :" , c4, "ALTURA :" , a4)   
         print("\n")  
 
@@ -158,7 +166,7 @@ while codigo != 0 :
         
         # PRIMEIRO CLIENTE
 
-        if i == 1 :
+        if i == 0 :
          c1 = codigo
          a1 = altura
          p1 = peso  
@@ -167,7 +175,7 @@ while codigo != 0 :
 
        #   SEGUNDO CLIENTE
 
-        if i == 2  :
+        if i == 1  :
          c2 = codigo
          a2 = altura
          p2 = peso
@@ -175,7 +183,7 @@ while codigo != 0 :
  
         # TERCEIRO CLIENTE
 
-        if i == 3  :
+        if i == 2  :
          c3 = codigo
          a3 = altura
          p3 = peso
@@ -184,7 +192,7 @@ while codigo != 0 :
 
         # QUARTO CLIENTE
 
-        if i == 4  :
+        if i == 3  :
          c4 = codigo
          a4 = altura
          p4 = peso
